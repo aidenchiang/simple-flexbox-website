@@ -1,11 +1,15 @@
 body {
     display: flex;
     margin: 0px;
+    flex-direction: column;
 }
 
 .header-logo {
-    font-size: 36px;
-    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
     color: white;
     font-family: sans-serif;
 }
@@ -31,4 +35,53 @@ a {
     background-color: #1f2937;
     padding-left: 32px;
     padding-right: 128px;
+}
+
+.website-intro {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    background-color: #1f2937;
+    flex: 1;
+    padding-left: 32px;
+    padding-right: 128px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.left {
+    flex-shrink: 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#website-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+#website-description {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#button-1 {
+    background-color: #3882F6;
+    color: white;
+    font-family: sans-serif;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 750;
 }
