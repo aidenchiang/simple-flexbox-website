@@ -124,3 +124,28 @@ img {
     text-align: center;
     color: #1F2937;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 256px;
+    padding-right: 256px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#quote-author {
+    align-self: flex-end;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding-right: 64px;
+}
+
+#quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-family: sans-serif;
+}
